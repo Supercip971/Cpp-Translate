@@ -76,6 +76,6 @@ utilisant vecteur = std::vector < T>;
 #pragma endregion
 
 #pragma region fonctions
-#define écrire(A) printf(A)
+#define écrire printf
 
 #pragma endregion
