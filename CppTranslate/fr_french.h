@@ -1,13 +1,13 @@
 #pragma once
-// c++ en français
+// c++ en franÃ§ais
 // juste pour le fun
 
 #include <string>
 #include <vector>
-#define cpp_français
+#define cpp_franÃ§ais
 #pragma region autre
 #define utilisant using
-#define point_d_entrée main
+#define point_d_entrÃ©e main
 
 #define __LIGNE__ __LINE__
 #define __FICHIER__ __FILE__
@@ -15,22 +15,23 @@
 
 #pragma region operateur
 #define classe class
-#define modèle template
+#define modÃ¨le template
 #define constant const
 #define taille_de size_of
-#define opérateur operator
+#define opÃ©rateur operator
 #define structure struct
-#define énumération enum
+#define Ã©numÃ©ration enum
 #define virtuel virtual
 #define statique static
 #define publique public
-#define privé private
-#define sécurisé protected
+#define privÃ© private
+#define sÃ©curisÃ© protected
 #define nom_de_type typename
 #define identificateur_de_type typeid
 #define envoyer throw
 #define retourner return
 #define nouveau new
+#define nouvelle new
 #define supprimer delete
 #define supprimer_tableaux delete[]
 #define ou or
@@ -41,11 +42,11 @@
 #define faux false
 
 #define additionner +
-#define égal =
+#define Ã©gal =
 #define multiplier *
 #define soustraire -
 #define diviser /
-#define addresse_mémoire(A) &A
+#define addresse_mÃ©moire(A) &A
 #define pointeur(A) A*
 #define enfant :
 
@@ -57,25 +58,25 @@
 
 utilisant vide = void;
 
-utilisant booléen = bool;
-utilisant charactère = char;
-utilisant intégral = int;
+utilisant boolÃ©en = bool;
+utilisant charactÃ¨re = char;
+utilisant intÃ©gral = int;
 utilisant flottant = float;
 utilisant double_flottant = double;
 utilisant phrase = std::string;
-modèle<classe T>
+modÃ¨le<classe T>
 utilisant vecteur = std::vector < T>;
 
 #pragma endregion
 #pragma region boucle_ou_autre
 #define si if
 #define sinon else
-#define répéter_tant_que while
+#define rÃ©pÃ©ter_tant_que while
 #define pour for
 #define pour_chacun for each
 #pragma endregion
 
 #pragma region fonctions
-#define écrire printf
+#define Ã©crire printf
 
 #pragma endregion
