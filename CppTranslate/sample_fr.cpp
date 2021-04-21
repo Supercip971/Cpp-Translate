@@ -1,10 +1,11 @@
 #include "fr_french.h"
-modèle<classe t>
+modÃ¨le<classe t>
 classe example{
 };
-intégral point_d_entrée() {
-	statique flottant élément égal 0.1f;
+intÃ©gral point_d_entrÃ©e() {
+	statique flottant Ã©lÃ©ment Ã©gal 0.1f;
 
 	pointeur(phrase) p = nouveau phrase;
-	écrire(p->c_str());
+	Ã©crire(p->c_str());
+	retourner 0;
 }
