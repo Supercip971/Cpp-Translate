@@ -54,6 +54,7 @@
 
 #define additionner +
 #define Ã©gal =
+#define égall ==
 #define multiplier *
 #define soustraire -
 #define diviser /
