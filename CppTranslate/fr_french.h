@@ -1,15 +1,15 @@
 #pragma once
-// c++ en français
+// c++ en franÃ§ais
 // juste pour le fun
 
 #include <string>
 #include <list>
 #include <cstring>
 #include <vector>
-#define cpp_français
+#define cpp_franÃ§ais
 #pragma region autre
 #define utilisant using
-#define point_d_entrée main
+#define point_d_entrÃ©e main
 
 #define __LIGNE__ __LINE__
 #define __FICHIER__ __FILE__
@@ -18,13 +18,13 @@
 #pragma region operateur
 
 #define nom_de_type typename
-#define modèle template
+#define modÃ¨le template
 #define taille_de sizeof
-#define opérateur operator
+#define opÃ©rateur operator
 
 #define classe class
 #define structure struct
-#define énumération enum
+#define Ã©numÃ©ration enum
 
 #define constant const
 #define virtuel virtual
@@ -32,8 +32,8 @@
 #define sur_la_ligne inline
 
 #define publique public
-#define privé private
-#define sécurisé protected
+#define privÃ© private
+#define sÃ©curisÃ© protected
 
 #define identificateur_de_type typeid
 
@@ -53,21 +53,21 @@
 #define faux false
 
 #define additionner +
-#define égal =
-#define égal ==
+#define Ã©gal =
+#define Ã©gal ==
 #define multiplier *
 #define soustraire -
 #define diviser /
 
-#define référence_de(A) (&A)
+#define rÃ©fÃ©rence_de(A) (&A)
 #define pointeur(A) A*
 #define enfant_de :
 #define index(A) [A]
 
 #define plus_grand_que >
 #define plus_petit_que <
-#define plus_grand_ou_égal >=
-#define plus_petit_ou_égal <=
+#define plus_grand_ou_Ã©gal >=
+#define plus_petit_ou_Ã©gal <=
 
 #define est_vrai == vrai
 #define est_faux == faux
@@ -78,19 +78,19 @@
 
 utilisant vide = void;
 
-utilisant booléen = bool;
-utilisant charactère = char;
-utilisant intégral = int;
+utilisant boolÃ©en = bool;
+utilisant charactÃ¨re = char;
+utilisant entier = int;
 utilisant flottant = float;
 utilisant double_flottant = double;
 utilisant phrase = std::string;
 
-utilisant chaine_de_caractère_c_terminant_par_un_zero = char*;
+utilisant chaine_de_caractÃ¨re_c_terminant_par_un_zero = char*;
 
-modèle<classe T>
+modÃ¨le<classe T>
 utilisant vecteur = std::vector < T>;
 
-modèle<classe T>
+modÃ¨le<classe T>
 utilisant liste = std::list<T>;
 
 #pragma endregion
@@ -99,17 +99,17 @@ utilisant liste = std::list<T>;
 #define si if
 #define sinon else
 #define sinon_si else if
-#define répéter_tant_que while
+#define rÃ©pÃ©ter_tant_que while
 #define pour for
 #define pour_chacun for each
 #pragma endregion
 
 #pragma region fonctions
-#define écrire printf
+#define Ã©crire printf
 
 #pragma endregion
 
-#define copier_mémoire memcpy
-#define mettre_mémoire memset
-#define taille_dune_chaine_de_caractère_c strlen
-#define copier_chaine_de_caractère strcpy
+#define copier_mÃ©moire memcpy
+#define mettre_mÃ©moire memset
+#define taille_dune_chaine_de_caractÃ¨re_c strlen
+#define copier_chaine_de_caractÃ¨re strcpy
