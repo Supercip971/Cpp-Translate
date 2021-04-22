@@ -4,7 +4,7 @@
 #include <cstring>
 #include <vector>
 
-#define cpp_deustch
+#define cpp_deutsch
 #pragma region ander
 
 #define benutze using
