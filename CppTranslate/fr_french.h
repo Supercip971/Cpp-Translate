@@ -61,6 +61,7 @@
 #define référence_de(A) (&A)
 #define pointeur(A) A*
 #define enfant_de :
+#define index(A) [A]
 
 #define plus_grand_que >
 #define plus_petit_que <
@@ -83,7 +84,7 @@ utilisant flottant = float;
 utilisant double_flottant = double;
 utilisant phrase = std::string;
 
-utilisant chaine_de_caractère_c_terminant_par_un_zero = const char*;
+utilisant chaine_de_caractère_c_terminant_par_un_zero = char*;
 
 modèle<classe T>
 utilisant vecteur = std::vector < T>;
