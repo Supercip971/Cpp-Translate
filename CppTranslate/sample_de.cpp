@@ -1,19 +1,18 @@
 #include "de_german.h"
-vorlege<klasse t>
+vorlage<klasse t>
 klasse exemple
 {
 
 };
 
-ganzzahl einstiegspunk
+ganzzahl einstiegspunkt()
 {
-	statisch bool element gleich wenn;
+	statisch bool element gleich wahr;
 	wenn(element ist_falsch)
 	{
 	        rückkehr 1;
-		
 	}
-        satz p = neue zeichen[10];
+	c_satz p = neu zeichen[10];
 	p index(0) gleich 'c';
 	p index(1) gleich 0;
 	
@@ -43,4 +42,3 @@ int main()
     printf(p);
     return 0;
 }
-
