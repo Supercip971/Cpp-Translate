@@ -35,7 +35,6 @@
 #define lösche delete
 #define lösche_array delete[]
 
-
 #define oder or
 #define und and
 #define nicht not
@@ -56,6 +55,9 @@
 
 #define größer_als >
 #define kleiner_als < 
+
+#define ist_wahr == wahr
+#define ist_falsch == falsch
 
 #pragma endregion
 
@@ -81,6 +83,7 @@ benutze liste = std::list<T>;
 #pragma region schleife
 
 #define falls if
+#define wenn if
 #define sonst else
 #define sonst_falls else if
 #define während while

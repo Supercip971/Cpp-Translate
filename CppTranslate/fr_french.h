@@ -53,7 +53,7 @@
 #define faux false
 
 #define additionner +
-#define égal =
+#define est =
 #define égal ==
 #define multiplier *
 #define soustraire -

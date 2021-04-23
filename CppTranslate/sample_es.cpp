@@ -1,24 +1,24 @@
 #include "es_spanish.h"
-clase<classe t>
+plantilla<clase t>
 clase ejemplo
 {
 
 };
 
-entero principal() 
+entero principal()
 {
-	est·tico booleano elemento igual verdadero;
-	si(elmento es_falso)
+	est√°tico booleano elemento igual verdadero;
+	si(elemento es_falso)
 	{
 		retornar 1;
 	}
     cadena_de_caracteres_que_terminan_en_cero p = nuevo caracter[10];
-	p Ìndice(0) igual 'c';
-	p Ìndice(1) igual 0;
-	
+	p √≠ndice(0) igual 'c';
+	p √≠ndice(1) igual 0;
+
     escribir(p);
 
-    retourne 0;
+	retornar 0;
 }
 
 // bad and evil source code:
