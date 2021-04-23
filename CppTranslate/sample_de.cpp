@@ -10,15 +10,15 @@ ganzzahl einstiegspunkt()
 	statisch bool element gleich wahr;
 	wenn(element ist_falsch)
 	{
-	        rückkehr 1;
+		rückgabe 1;
 	}
-	c_satz p = neu zeichen[10];
+	c_zeichenkette p = neue zeichen[10];
 	p index(0) gleich 'c';
 	p index(1) gleich 0;
 	
-    schreiben(p);
+	druckf(p);
 
-    rückkehr 0;
+	rückgabe 0;
 }
 
 // bad and evil source code:

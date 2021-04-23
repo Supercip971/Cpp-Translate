@@ -20,7 +20,6 @@
 
 #define nombre_de_tipo typename
 #define plantilla template
-#define größe_für sizeof
 #define tamañode sizeof
 #define operador operator
 
