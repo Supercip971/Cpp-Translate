@@ -52,9 +52,7 @@
 #define نه not
 
 #define درست true
-#define صحیح true
 #define نادرست false
-#define غلط false
 
 #define بعلاوه‌ی +
 #define می‌شود =
@@ -74,10 +72,8 @@
 #define بزرگ‌تر‌یا‌مساوی‌با >=
 #define کوچک‌تر‌یا‌مساوی‌با <=
 
-#define درست‌است == vrai
-#define صحیح‌است == vrai
-#define غلط‌است == faux
-#define نادرست‌است == faux
+#define درست‌است == درست
+#define نادرست‌است == نادرست
 
 #pragma endregion
 
