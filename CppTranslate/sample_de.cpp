@@ -1,5 +1,5 @@
 #include "de_german.h"
-vorlege<klasse t>
+vorlage<klasse t>
 klasse exemple
 {
 
@@ -7,19 +7,18 @@ klasse exemple
 
 ganzzahl einstiegspunk
 {
-	statisch bool element gleich wenn;
-	wenn(element ist_falsch)
+	statisch bool element gleich wahr;
+	falls(element ist_gleich falsch)
 	{
-	        rückkehr 1;
-		
+		zurück 1;
 	}
-        satz p = neue zeichen[10];
+    satz p = neu zeichen[10];
 	p index(0) gleich 'c';
 	p index(1) gleich 0;
 	
     schreiben(p);
 
-    rückkehr 0;
+    zurück 0;
 }
 
 // bad and evil source code:
