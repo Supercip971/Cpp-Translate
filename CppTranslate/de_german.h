@@ -22,18 +22,18 @@
 #define klasse class
 #define struktur struct
 #define aufzählung enum
-#define konstant const
-#define virtuellen virtual
+#define konstante const
+#define virtuell virtual
 #define statisch static
-#define öffentliche public
+#define öffentlich public
 #define geschützt protected
 
-#define werfen throw
-#define rückkehr return
+#define wirf throw
+#define rückgabe return
 
 #define neue new
-#define löschen delete
-#define löschen_array delete[]
+#define lösche delete
+#define lösche_array delete[]
 
 #define oder or
 #define und and
@@ -64,11 +64,11 @@ benutze leere = void;
 
 benutze zeichen = char;
 benutze ganzzahl = int;
-benutze schweben = float;
-benutze doppelt = double;
-benutze satz = std::string;
+benutze fließkommazahl = float;
+benutze doppelt_ganzzahl = double;
+benutze zeichenkette = std::string;
 
-benutze c_satz = char*;
+benutze c_zeichenkette = char*;
 
 vorlage<klasse T>
 benutze vektor = std::vector < T>;
@@ -79,16 +79,16 @@ benutze liste = std::list<T>;
 #pragma endregion
 #pragma region schleife
 
-#define wenn if
+#define falls if
 #define sonst else
-#define sonst_wenn else if
+#define sonst_falls else if
 #define während while
 #define für for
 #define für_jede for each
 #pragma endregion
 
 #pragma region funktionen
-#define schreiben printf
+#define druckf printf
 
 #pragma endregion
 
