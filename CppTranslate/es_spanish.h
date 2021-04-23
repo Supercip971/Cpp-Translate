@@ -1,14 +1,15 @@
 #pragma once
-// c++ en español
-// sí, es un chiste
+// c++ en espaÃ±ol
+// sÃ­, es un chiste
 
 #include <string>
 #include <list>
 #include <cstring>
 #include <vector>
-#define cpp_español
+#define cpp_espaÃ±ol
 #pragma region otra
 #define usando using
+#define utilisando using
 #define principal main
 
 #define __LINEA__ __LINE__
@@ -19,7 +20,8 @@
 
 #define nombre_de_tipo typename
 #define plantilla template
-#define tamañode sizeof
+#define grÃ¶ÃŸe_fÃ¼r sizeof
+#define tamaÃ±ode sizeof
 #define operador operator
 
 #define clase class
@@ -28,10 +30,10 @@
 
 #define constante const
 //#define virtual virtual
-#define estático static
-#define enlínea inline
+#define estÃ¡tico static
+#define enlÃ­nea inline
 
-#define público public
+#define pÃºblico public
 #define privado private
 #define protegido protected
 
@@ -62,7 +64,7 @@
 #define referencia_de(A) (&A)
 #define apuntador(A) A*
 #define hijo_de :
-#define índice(A) [A]
+#define Ã­ndice(A) [A]
 
 #define mayor_que >
 #define menor_que <
@@ -76,21 +78,21 @@
 
 #pragma region type
 
-utilisant vacío = void;
+usando vacÃ­o = void;
 
-utilisant booleano = bool;
-utilisant caracter = char;
-utilisant entero = int;
-utilisant flotante = float;
-utilisant doble_flotante = double;
-utilisant frase = std::string;
+usando booleano = bool;
+usando caracter = char;
+usando entero = int;
+usando flotante = float;
+usando doble_flotante = double;
+usando frase = std::string;
 
-utilisant cadena_de_caracteres_que_terminan_en_cero = char*;
+usando cadena_de_caracteres_que_terminan_en_cero = char*;
 
-clase<classe T>
+plantilla<clase T>
 utilisando vector = std::vector < T>;
 
-clase<classe T>
+plantilla<clase T>
 utilisando lista = std::list<T>;
 
 #pragma endregion

@@ -5,16 +5,16 @@ classe example
 
 };
 
-intégral point_d_entrée() 
+entier point_d_entrée()
 {
-	statique booléen élément égal vrai;
+	statique booléen élément est vrai;
 	si(élément est_faux)
 	{
 		retourne 1;
 	}
     chaine_de_caractère_c_terminant_par_un_zero p = nouveau charactère[10];
-	p index(0) égal 'c';
-	p index(1) égal 0;
+	p index(0) est 'c';
+	p index(1) est 0;
 	
     écrire(p);
 

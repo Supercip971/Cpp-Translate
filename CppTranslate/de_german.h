@@ -29,7 +29,7 @@
 #define geschützt protected
 
 #define werfen throw
-#define zurück return
+#define rückkehr return
 
 #define neu new
 #define löschen delete
@@ -56,6 +56,9 @@
 #define größer_als >
 #define kleiner_als < 
 
+#define ist_wahr == wahr
+#define ist_falsch == falsch
+
 #pragma endregion
 
 #pragma region type
@@ -80,6 +83,7 @@ benutze liste = std::list<T>;
 #pragma region schleife
 
 #define falls if
+#define wenn if
 #define sonst else
 #define sonst_falls else if
 #define während while
