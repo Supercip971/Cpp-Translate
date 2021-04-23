@@ -6,7 +6,7 @@
 #include <list>
 #include <cstring>
 #include <vector>
-#define cpp_espanol
+#define cpp_español
 #pragma region otra
 #define usando using
 #define utilisando using
