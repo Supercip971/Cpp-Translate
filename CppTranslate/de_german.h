@@ -35,6 +35,7 @@
 #define lösche delete
 #define lösche_array delete[]
 
+
 #define oder or
 #define und and
 #define nicht not
@@ -42,18 +43,18 @@
 #define wahr true
 #define falsch false
 
-#define hinzuzufügen +
+#define addiere +
 #define gleich =
-#define gleich ==
-#define multiplizieren *
-#define subtrahieren -
+#define ist_gleich ==
+#define multipliziere *
+#define subtrahiere -
 #define teilen /
 
 #define referenz(A) (&A)
 #define zeiger(A) A*
 #define index(A) [A]
 
-#define größer >
+#define größer_als >
 #define kleiner_als < 
 
 #pragma endregion
@@ -84,7 +85,7 @@ benutze liste = std::list<T>;
 #define sonst_falls else if
 #define während while
 #define für for
-#define für_jede for each
+#define für_jedes for each
 #pragma endregion
 
 #pragma region funktionen
@@ -92,7 +93,7 @@ benutze liste = std::list<T>;
 
 #pragma endregion
 
-#define kopie_speicher memcpy
-#define setzte_speicher memset
+#define kopiere_speicher memcpy
+#define setze_speicher memset
 #define größe_c_satz strlen
-#define kopie_satz strcpy
+#define kopiere_satz strcpy
