@@ -1,35 +1,31 @@
 #include "de_german.h"
 vorlage<klasse t>
-klasse exemple
-{
+klasse Beispiel {
 
 };
 
-ganzzahl einstiegspunkt()
-{
-	statisch bool element gleich wahr;
-	wenn(element ist_falsch)
-	{
-	        rückkehr 1;
-	}
-	c_satz p = neu zeichen[10];
-	p index(0) gleich 'c';
-	p index(1) gleich 0;
+ganzzahl haupt() {
+    statisch bool element gleich wahr;
+    falls (element ist_falsch) {
+            rückgabe 1;
+    }
+    c_zeichenkette p = neu zeichen[10];
+    p[0] = 'c';
+    p[1] = 0;
 	
-    schreiben(p);
+    ausgabef(p);
 
-    rückkehr 0;
+    rückgabe 0;
 }
 
 // bad and evil source code:
 
 template<class T>
-class exemple{
+class Example {
 
 };
 
-int main()
-{
+int main() {
     static bool element = true;
 	if(element == false)
 	{

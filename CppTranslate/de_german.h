@@ -8,7 +8,7 @@
 #pragma region ander
 
 #define benutze using
-#define einstiegspunkt main
+#define haupt main
 #define __LEINE__ __LINE__
 #define __DATEI__ __FILE__
 
@@ -31,7 +31,7 @@
 #define wirf throw
 #define rückgabe return
 
-#define neue new
+#define neu new
 #define lösche delete
 #define lösche_array delete[]
 
@@ -51,7 +51,6 @@
 
 #define referenz(A) (&A)
 #define zeiger(A) A*
-#define index(A) [A]
 
 #define größer_als >
 #define kleiner_als < 
@@ -92,11 +91,11 @@ benutze liste = std::list<T>;
 #pragma endregion
 
 #pragma region funktionen
-#define druckf printf
+#define ausgabef printf
 
 #pragma endregion
 
 #define kopiere_speicher memcpy
 #define setze_speicher memset
-#define größe_c_satz strlen
+#define c_zeichenkette_länge strlen
 #define kopiere_satz strcpy
