@@ -1,6 +1,5 @@
 #include "de_german.h"
-vorlage<klasse t>
-klasse Beispiel {
+vorlage<klasse t> klasse Beispiel{
 
 };
 
