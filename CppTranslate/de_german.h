@@ -82,7 +82,6 @@ benutze liste = std::list<T>;
 #pragma region schleife
 
 #define falls if
-#define wenn if
 #define sonst else
 #define sonst_falls else if
 #define während while
