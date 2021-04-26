@@ -13,6 +13,7 @@ ganzzahl haupt() {
   ausgabef(p);
 
   rückgabe 0;
+}
 
 // bad and evil source code:
 
