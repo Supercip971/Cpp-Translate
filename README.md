@@ -1,8 +1,16 @@
 # Cpp-Translate
-A c++ project for translating c++ in many language (including the standart library) 
-note : with this library you can still use normal operator and other things...
---- 
-french sample : 
+A c++ project for translating c++  (including the standard library) to other languages.
 
-![sample](./french_horror.png)
+## french sample
+
+![french sample](./samples/fr.png)
+
+## german sample:
+
+![german sample](./samples/de.png)
+
+## persian sample
+
+![persion sample](./samples/fa.png)
+
 (note : this is a joke)
