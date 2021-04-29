@@ -10,7 +10,7 @@
 #pragma region دیگر
 #define استفاده‌کن using
 #define را
-#define نقطه‌ورودی main
+#define اصلی main
 
 #define ــ‌خط‌ــ __LINE__
 #define ــ‌فایل‌ــ __FILE__
