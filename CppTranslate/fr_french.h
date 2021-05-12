@@ -37,7 +37,7 @@
 
 #define identificateur_de_type typeid
 
-#define envoyer throw
+#define envoie throw
 #define retourne return
 
 #define nouveau new
@@ -79,13 +79,13 @@
 utilisant vide = void;
 
 utilisant booléen = bool;
-utilisant charactère = char;
+utilisant caractère = char;
 utilisant entier = int;
 utilisant flottant = float;
 utilisant double_flottant = double;
 utilisant phrase = std::string;
 
-utilisant chaine_de_caractère_c_terminant_par_un_zero = char*;
+utilisant chaine_de_caractère_c_terminant_par_un_zéro = char*;
 
 modèle<classe T>
 utilisant vecteur = std::vector < T>;
@@ -111,5 +111,5 @@ utilisant liste = std::list<T>;
 
 #define copier_mémoire memcpy
 #define mettre_mémoire memset
-#define taille_dune_chaine_de_caractère_c strlen
+#define taille_d_une_chaine_de_caractère_c strlen
 #define copier_chaine_de_caractère strcpy
