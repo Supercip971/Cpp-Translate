@@ -18,3 +18,4 @@
 #define еще else
 
 #define правда true
+#define ложный false
