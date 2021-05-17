@@ -19,3 +19,4 @@
 
 #define правда true
 #define ложный false
+
