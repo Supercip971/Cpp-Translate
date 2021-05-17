@@ -21,3 +21,4 @@
 #define ложный false
 
 #define и and
+#defin
