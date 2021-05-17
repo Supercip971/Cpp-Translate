@@ -15,3 +15,4 @@
 #define файл __FILE__
 
 #define если if
+#define еще else
