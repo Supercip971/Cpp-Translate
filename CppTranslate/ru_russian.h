@@ -16,3 +16,5 @@
 
 #define если if
 #define еще else
+
+#define правда tru
