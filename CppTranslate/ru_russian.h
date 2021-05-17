@@ -5,8 +5,11 @@
 #include <string>
 #include <list>
 #include <cstring>
-#include vector
+#include <vector>
 
 #define с_использованием using
 
 #define основной main
+
+#define линия __LINE__
+#define файл __FILE__
