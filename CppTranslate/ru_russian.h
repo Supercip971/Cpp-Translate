@@ -13,3 +13,5 @@
 
 #define линия __LINE__
 #define файл __FILE__
+
+#define если if
