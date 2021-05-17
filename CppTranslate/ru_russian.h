@@ -22,4 +22,4 @@
 
 #define и and
 #define или or
-#d
+#de
