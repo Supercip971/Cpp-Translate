@@ -3,11 +3,12 @@ A c++ project for translating c++  (including the standard library) to other lan
 
 supported languages:
 - danish
-- german 
-- esperanto 
-- spanish 
-- persian 
-- french 
+- german
+- esperanto
+- spanish
+- persian
+- french
+- russian
 
 ## french sample
 
