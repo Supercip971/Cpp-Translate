@@ -8,18 +8,35 @@
 #include <vector>
 
 #define с_использованием using
+#define пространство имён namespace
 
-#define основной main
+#define основа main
+
+#define инт int
+#define авто auto
+#define стой break
+#define случай case
+#define лови catch
+#define далее continue
 
 #define линия __LINE__
 #define файл __FILE__
 
+#define введи cin
+#define выведи cout
+
 #define если if
-#define еще else
+#define ещё else
 
 #define правда true
-#define ложный false
+#define ложь false
 
 #define и and
 #define или or
 #define не not
+
+#define класс class
+#define статичный static
+#define верни return
+#define новый new
+#define шаблон template
