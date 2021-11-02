@@ -25,6 +25,7 @@
 #define введи cin
 #define выведи cout
 
+#define для for
 #define если if
 #define ещё else
 
@@ -40,3 +41,10 @@
 #define верни return
 #define новый new
 #define шаблон template
+#define ща this
+#define ноль null
+#define лови catch
+#define конст const
+#define удали delete
+#define делай do
+#define частный private
